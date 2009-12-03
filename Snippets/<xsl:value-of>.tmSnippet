@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xsl:template match="${1:/}"&gt;</string>
+	<string>&lt;xsl:value-of select="${1:path}"/&gt;</string>
 	<key>name</key>
-	<string>&lt;xsl:template match="/"&gt;</string>
+	<string>&lt;xsl:value-of&gt;</string>
 	<key>scope</key>
 	<string>text.xml.xsl</string>
 	<key>tabTrigger</key>
-	<string>tpl</string>
+	<string>vo</string>
 	<key>uuid</key>
-	<string>B1BEE31D-ED81-4A5D-A715-574520A25BCE</string>
+	<string>65008A66-4CE0-4C65-9B46-F5345AB001C4</string>
 </dict>
 </plist>

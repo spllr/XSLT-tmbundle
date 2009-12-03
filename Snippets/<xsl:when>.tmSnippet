@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xsl:template match="${1:/}"&gt;</string>
+	<string>&lt;xsl:when test="${1:expression}"&gt;
+	$0
+&lt;/xsl:when&gt;</string>
 	<key>name</key>
-	<string>&lt;xsl:template match="/"&gt;</string>
+	<string>&lt;xsl:when&gt;</string>
 	<key>scope</key>
 	<string>text.xml.xsl</string>
 	<key>tabTrigger</key>
-	<string>tpl</string>
+	<string>when</string>
 	<key>uuid</key>
-	<string>B1BEE31D-ED81-4A5D-A715-574520A25BCE</string>
+	<string>7363B722-908A-481E-86E2-EBA67E21FE52</string>
 </dict>
 </plist>

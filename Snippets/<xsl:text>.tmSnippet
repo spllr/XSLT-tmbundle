@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xsl:template match="${1:/}"&gt;</string>
+	<string>&lt;xsl:text${1: disable-output-escaping="${2:yes}"}&gt;
+	$0
+&lt;/xsl:text&gt;</string>
 	<key>name</key>
-	<string>&lt;xsl:template match="/"&gt;</string>
+	<string>&lt;xsl:text&gt;</string>
 	<key>scope</key>
 	<string>text.xml.xsl</string>
 	<key>tabTrigger</key>
-	<string>tpl</string>
+	<string>text</string>
 	<key>uuid</key>
-	<string>B1BEE31D-ED81-4A5D-A715-574520A25BCE</string>
+	<string>FF3EE5D4-0B9A-4AD3-8355-19BEC0ABCC38</string>
 </dict>
 </plist>

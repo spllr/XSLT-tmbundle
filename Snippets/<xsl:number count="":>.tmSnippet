@@ -3,14 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xsl:template match="${1:/}"&gt;</string>
+	<string>&lt;xsl:number count="${1:expression}"${2: format="${3:formatstring}"}/&gt;</string>
 	<key>name</key>
-	<string>&lt;xsl:template match="/"&gt;</string>
+	<string>&lt;xsl:number count=""/&gt;</string>
 	<key>scope</key>
 	<string>text.xml.xsl</string>
 	<key>tabTrigger</key>
-	<string>tpl</string>
+	<string>number</string>
 	<key>uuid</key>
-	<string>B1BEE31D-ED81-4A5D-A715-574520A25BCE</string>
+	<string>8C9D2EF9-E7B1-4527-88A5-9C6389D9F0FD</string>
 </dict>
 </plist>

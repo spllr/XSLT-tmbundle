@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xsl:template match="${1:/}"&gt;</string>
+	<string>&lt;xsl:if test="${1:expression}"&gt;
+	$0
+&lt;/xsl:if&gt;</string>
 	<key>name</key>
-	<string>&lt;xsl:template match="/"&gt;</string>
+	<string>&lt;xsl:if&gt;</string>
 	<key>scope</key>
 	<string>text.xml.xsl</string>
 	<key>tabTrigger</key>
-	<string>tpl</string>
+	<string>if</string>
 	<key>uuid</key>
-	<string>B1BEE31D-ED81-4A5D-A715-574520A25BCE</string>
+	<string>77A2AF5E-8229-4FC1-91D3-3A5830802557</string>
 </dict>
 </plist>
