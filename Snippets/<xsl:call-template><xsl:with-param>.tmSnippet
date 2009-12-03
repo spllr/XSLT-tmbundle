@@ -3,14 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>&lt;xsl:template match="${1:/}"&gt;</string>
+	<string>&lt;xsl:call-template name="${1:name}"&gt;
+	&lt;xsl:with-param name="${2:name}" /&gt;
+&lt;/xsl:call-template&gt;</string>
 	<key>name</key>
-	<string>&lt;xsl:template match="/"&gt;</string>
+	<string>&lt;xsl:call-template&gt;&lt;xsl:with-param&gt;</string>
 	<key>scope</key>
 	<string>text.xml.xsl</string>
 	<key>tabTrigger</key>
-	<string>template</string>
+	<string>call</string>
 	<key>uuid</key>
-	<string>B1BEE31D-ED81-4A5D-A715-574520A25BCE</string>
+	<string>8DECC5E1-3ECA-4A37-AF68-18C530485477</string>
 </dict>
 </plist>
