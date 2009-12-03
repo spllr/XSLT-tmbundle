@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>element-available(${1:'${2:match}'})</string>
+	<key>name</key>
+	<string>element-available()</string>
+	<key>scope</key>
+	<string>text.xml.xsl</string>
+	<key>tabTrigger</key>
+	<string>ea</string>
+	<key>uuid</key>
+	<string>CDCEC12D-5C5B-4022-8BB8-0CE77C337A77</string>
+</dict>
+</plist>
